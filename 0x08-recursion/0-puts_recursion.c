@@ -1,10 +1,17 @@
+#include "main.h"
 /**
- * main - check the code for Kisii university students.
- *
- * Return: Always 0.
+ * _puts_recursion - function like puts();
+ * @s: input
+ * Return: Always 0 (Success)
  */
-int main(void)
+void _puts_recursion(char *s)
 {
-	_puts_recursion("First, solve the problem. Then, write the code");
-	return (0);
+	if (*s)
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
+
+	else
+		_putchar('\n');
 }
