@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
  * main - the name of the file is printed
  *
- * Return: Return  0 on Success
+ *Return: Return  0 on Success
  */
 int ain(void)
 {
