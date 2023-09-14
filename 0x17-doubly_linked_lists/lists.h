@@ -3,7 +3,8 @@
 /*library*/
 
 #include <stddef.h>
-
+#include <stdio.h>
+#include <stdlib.h>
 /*struct*/
 
 typedef struct dlistint_s
